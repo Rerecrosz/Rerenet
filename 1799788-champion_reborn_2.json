@@ -1,0 +1,63 @@
+{
+  "name": "pf2e-champion-reforged-2",
+  "title": "PF2e Champion Reforged 2: Forged in Fire",
+  "description": "A module to implement the Champion Reforged 2: Forged in Fire product on Pathfinder Infinite",
+  "author": "Delioth",
+  "version": "1.0.1",
+  "compatibleCoreVersion": "9",
+  "minimumCoreVersion": "9",
+  "packs": [
+    {
+      "label": "CR2 - Actions",
+      "type": "Item",
+      "name": "champion-reforged-2-actions",
+      "path": "./packs/champion-reforged-2-actions.db",
+      "system": "pf2e",
+      "package": "pf2e-champion-reforged-2",
+      "private": false
+    },
+    {
+      "label": "CR2 - Features",
+      "type": "Item",
+      "name": "champion-reforged-2-features",
+      "path": "./packs/champion-reforged-2-features.db",
+      "system": "pf2e",
+      "package": "pf2e-champion-reforged-2",
+      "private": false
+    },
+    {
+      "label": "CR2 - Feats",
+      "type": "Item",
+      "name": "champion-reforged-2-feats",
+      "path": "./packs/champion-reforged-2-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-champion-reforged-2",
+      "private": false
+    },
+    {
+      "label": "CR2 - Effects",
+      "type": "Item",
+      "name": "champion-reforged-2-effects",
+      "path": "./packs/champion-reforged-2-effects.db",
+      "system": "pf2e",
+      "package": "pf2e-champion-reforged-2",
+      "private": false
+    },
+    {
+      "label": "CR2 - Spells",
+      "type": "Item",
+      "name": "champion-reforged-2-spells",
+      "path": "./packs/champion-reforged-2-spells.db",
+      "system": "pf2e",
+      "package": "pf2e-champion-reforged-2",
+      "private": false
+    }
+  ],
+  "system": [
+    "pf2e"
+  ],
+  "url": "https://github.com/Delioth/foundry-pf2e-champion-reforged-2",
+  "manifest": "https://raw.githubusercontent.com/Delioth/foundry-pf2e-champion-reforged-2/main/module.json",
+  "download": "https://github.com/Delioth/foundry-pf2e-champion-reforged-2/archive/refs/heads/main.zip",
+  "minimumSystemVersion": "3.8"
+}
